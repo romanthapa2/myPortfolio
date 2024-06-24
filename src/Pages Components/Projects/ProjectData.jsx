@@ -5,7 +5,7 @@ export const projectData = [
     description: "feofefefefefe",
     githubLink: "foefefjefee",
     websiteLink: "feifefefefe",
-    techStack: "feofefef",
+    techStack: ['fefeef',"fefwfw"],
   },
   {
     title: "itechstore",
@@ -13,6 +13,6 @@ export const projectData = [
     description: "fefefefefe",
     githubLink: "fefefefefe",
     websiteLink: "fefefefefe",
-    techStack: "ffefef",
+    techStack: ['fefefef',['fewew']],
   },
 ];
