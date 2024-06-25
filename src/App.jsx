@@ -6,6 +6,7 @@ import About from './Pages Components/About'
 import Projects from './Pages Components/Projects/Project'
 import Contact from './Pages Components/Contact'
 import Footer from './Pages Components/Footer'
+import ScrollToTopButton from './Pages Components/ScrollToUpButton'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <Projects/>
     <Contact/>
     <Footer/>
+    <ScrollToTopButton/>
     </div>
 
   )
