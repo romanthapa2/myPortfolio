@@ -13,9 +13,9 @@ function Skills() {
         id="skills"
         className="mx-6 mb-28 mt-12 min-h-[60vh] md:mx-0 md:mb-0 md:mt-20 md:min-h-screen"
       >
-        <h2 className="text-center text-4xl text-white">Tech Stack</h2>
+        <h2 className="text-center text-3xl text-white p-1">Skills</h2>
 
-        <div className="scroll-hide mx-auto mt-6 flex items-center justify-between gap-3 overflow-x-auto font-bold rounded-md bg-zinc-700 p-2 py-3 sm:w-3/5 md:w-1/2 lg:w-1/3">
+        <div className=" mx-auto mt-6 flex items-center justify-between gap-3 overflow-x-auto font-bold rounded-md bg-zinc-700 p-2 py-3 sm:w-3/5 md:w-1/2 lg:w-1/3">
           {categories.map((c, key) => (
             <span
               key={key}

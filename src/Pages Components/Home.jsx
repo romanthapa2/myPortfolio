@@ -10,7 +10,7 @@ const Home = () => {
       <section className="py-[100px] flex flex-col-reverse md:w-[1100px] m-auto md:flex-row  justify-between items-end  ">
         <div className="md:w-[60%] px-[15px]  flex flex-col text-left">
           <div>
-            <h1 className="mt-6 font-poppins font-semibold text-3xl ">
+            <h1 className="mt-6 font-poppins font-semibold text-5xl ">
               Hi, I'm Roman
               <span>👋</span>
             </h1>

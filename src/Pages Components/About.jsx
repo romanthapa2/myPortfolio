@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className='h-fit font-poppins '>
-    <h1 className='text-white  text-4xl'>About Me</h1>
+    <h1 className='text-white  text-3xl'>About Me</h1>
     <div className='flex flex-col text-white justify-center items-center  mt-10 gap-20 md:flex-row '>
         {/* image */}
       <div className='w-fit'>
