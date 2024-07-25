@@ -48,7 +48,7 @@ const Home = () => {
         <div className="w-fit">
           <img
             src="/professional-brown-man-black-hair-wearing-glass-trans.jpg"
-            className="w-full rounded h-96"></img>
+            className="w-full rounded-full h-96"></img>
         </div>
       </section>
     </div>

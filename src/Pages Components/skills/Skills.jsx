@@ -11,7 +11,7 @@ function Skills() {
     <ScrollWrapper>
       <div
         id="skills"
-        className="mx-6 mb-28 mt-12 min-h-[60vh] md:mx-0 md:mb-0 md:mt-20 md:min-h-screen"
+        className="mx-6 mb-28 mt-12 min-h-[60vh] md:mx-0 md:mb-0 md:mt-20 md:min-h-60"
       >
         <h2 className="text-center text-3xl text-white p-1">Skills</h2>
 
@@ -35,7 +35,6 @@ function Skills() {
           {skills
             .filter((skill) => skill.category === category)
             .map((s, key) => (
-
               <SkillCard key={key} {...s} />
             ))}
         </div>

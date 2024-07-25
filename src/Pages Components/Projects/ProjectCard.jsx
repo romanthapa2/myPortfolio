@@ -4,7 +4,7 @@ import ScrollWrapper from "../../utils/ScrollWrapper";
 export default function ProjectCard({ title, logo, description, techStack, websiteLink, githubLink }) {
   return (
     <ScrollWrapper>
-      <div className="flex h-full max-w-md flex-col gap-2 rounded-lg bg-zinc-900 p-4 transition-transform md:hover:scale-105 ">
+      <div className="flex h-full max-w-[20rem] flex-col gap-2 rounded-lg bg-zinc-900 p-4 transition-transform md:hover:scale-105 ">
         <div className="relative rounded-lg">
           <img
             alt={title}

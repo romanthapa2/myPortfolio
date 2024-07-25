@@ -1,17 +1,16 @@
 import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className="py-[50px] md:py-[50px]">
+    <div className="py-[50px] md:py-[30px]">
       <div className="w-full md:w-[1100px] m-auto px-[15px]">
         <div className="flex justify-center items-center flex-col gap-y-3 text-center mb-2 md:w-[60%] m-auto">
           <div
             className="flex
     justify-center items-center flex-col gap-y-4 text-white">
-            <div className="flex items-center justify-center rounded-full px-5 py-1 text-base font-sm font-poppins bg-gray-700 text-dimWhite tracking-wide">
+            <div className="flex items-center justify-center rounded-full px-5 py-1 text-base font-sm font-poppins bg-gray-700 tracking-wide">
               Get in touch
             </div>
             <p className="text-xl font-medium font-poppins ">
