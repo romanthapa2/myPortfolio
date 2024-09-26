@@ -1,4 +1,3 @@
-import React from "react";
 import ScrollWrapper from "../../utils/ScrollWrapper";
 
 export default function ProjectCard({ title, logo, description, techStack, websiteLink, githubLink }) {

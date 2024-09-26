@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectCard from './ProjectCard';
 import ScrollWrapper from '../../utils/ScrollWrapper';
 import { projectData } from './ProjectData';
